@@ -1,0 +1,43 @@
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	margin: 0;
+}
+#box{
+	width: 500px;
+	height: 313px;
+	position: relative;
+	overflow: hidden;
+	margin: 100px auto;
+	border: solid 14px #ddd;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px black;
+}
+#box ul{
+	position: absolute;
+	left: 0;
+}
+#box ul li{
+	float: left;
+}		
+#ad{
+	height: 70px;
+	width: 100%;
+	background: black;
+	opacity: 0.6;
+	position: absolute;
+	bottom: 0;
+	font-family: "微软雅黑";
+	color: white;
+	text-indent: 20px;
+}
+#ad h3{
+	line-height: 40px;
+	margin: 0;
+}
+#ad p{
+	margin: 0;
+}
